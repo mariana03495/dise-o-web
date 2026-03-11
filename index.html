@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
-        <div>
+        <div class="bg-pink-500">
             <h1>Mi Empresa</h1>
+
+           
             <nav>
                 <a href="#inicio">inicio</a>
                 <a href="#servicios">servicios</a>
@@ -17,9 +20,12 @@
         </div>
     </header>
     <main>
+       
+       
         <section id="inicio">
+            <hr class="my-6">
             <h2>bienvenidos</h2>
-            <p>Somos una empresa dedicada a crear soluciones digitales</p>
+            <p class="text-purple-900">Somos una empresa dedicada a crear soluciones digitales</p>
             <button>ver mas</button>
             <button>contactar</button>
         </section>
@@ -28,22 +34,25 @@
     <section id="servicios">
         <h2>nuestros servicios</h2>
     </section>
+   
+   
     <article>
-        <h3>Diseño Web</h3>
-        <p>Creamos sitios web modernos y funcionales</p>
+        <h3 >Diseño Web</h3>
+        <p class="text-purple-900"Texto morado>Creamos sitios web modernos y funcionales</p>
     </article>
 <article>
     <h3>desarrollo</h3>
-    <p>Programamos aplicaciones a medidas</p>
+    <p class="text-purple-900"Texto morado>Programamos aplicaciones a medidas</p>
+
+
 </article>
 <section id="contacto">
 <form>
-    <div>
-        <label for="email">email</label>
+    <div >
     <input type="text" id="email" placeholder="tu@email.com">
     </div>
     <button type="submit">enviar</button>
-</section>
+</section> 
 </form>
 </main>
 <footer>mi empresa</footer>
